@@ -1,0 +1,24 @@
+﻿Build started 2019/2/11 下午 03:20:13.
+     1>Project "E:\Project\TDD_HomeWork\UnitTestTemplate\Module\Module.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I./inc /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\Module.cpp
+         Module.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\Project\TDD_HomeWork\UnitTestTemplate\Module\x64\Debug\Module.lib" /NOLOGO /MACHINE:X64 x64\Debug\Module.obj
+         Module.vcxproj -> E:\Project\TDD_HomeWork\UnitTestTemplate\Module\x64\Debug\Module.lib
+       PostBuildEvent:
+         mkdir "..\inc\Module"
+         xcopy "E:\Project\TDD_HomeWork\UnitTestTemplate\Module\x64\Debug\Module.lib" ..\lib\Debug /y
+         xcopy "E:\Project\TDD_HomeWork\UnitTestTemplate\Module\Inc\*.*" "..\inc\Module" /y
+         :VCEnd
+         子目錄或檔案 ..\inc\Module 已經存在。
+         E:\Project\TDD_HomeWork\UnitTestTemplate\Module\x64\Debug\Module.lib
+         已複製 1 個檔案
+         E:\Project\TDD_HomeWork\UnitTestTemplate\Module\Inc\header.txt
+         E:\Project\TDD_HomeWork\UnitTestTemplate\Module\Inc\Module.h
+         已複製 2 個檔案
+     1>Done Building Project "E:\Project\TDD_HomeWork\UnitTestTemplate\Module\Module.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59
